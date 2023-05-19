@@ -30,6 +30,9 @@
     <ClCompile Include="engine\framework\math\vector\Vector2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="engine\framework\math\vector\Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="engine\Window.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="engine\framework\math\vector\Vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\framework\math\vector\Vector3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
