@@ -14,5 +14,5 @@ Vector3::Vector3(double x, double y)
 
 Vector3 Vector3::ZERO()
 {
-	return Vector2(0, 0);
+	return Vector3(0, 0);
 }
