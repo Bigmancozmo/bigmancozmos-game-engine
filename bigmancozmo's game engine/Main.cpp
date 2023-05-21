@@ -9,14 +9,14 @@
 using namespace std;
 
 int main() {
-	auto consoleWindow = GetConsoleWindow();
+	auto consoleWindow = GetConsoleWindow(); // ok boomer
 	FreeConsole();
 	PostMessage(consoleWindow, WM_CLOSE, 0, 0);
 
 	if (!glfwInit()) {
 		cout << "Failed to initialize GLFW!" << endl;
 	}
-
+	
 	Window window = Window("bigmancozmo's game engine", 800, 600);
 	Renderer renderer = Renderer();
 
@@ -26,6 +26,8 @@ int main() {
 		renderer.clear(54, 123, 43);
 		window.update();
 	}
+	
+	Vector2().x;
 
 	window.~Window();
 	glfwTerminate();
