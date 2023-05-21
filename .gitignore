@@ -367,3 +367,7 @@ FodyWeavers.xsd
 **/x86
 **/Debug
 **/Release
+
+# Gource
+make_video.bat
+gource.mp4
